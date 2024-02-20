@@ -1,0 +1,27 @@
+{
+  "name": "refresh-tokens",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/jwt": "^8.0.0",
+    "@prisma/client": "5.8.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.1",
+    "fastify": "^4.25.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20.11.6",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.56.0",
+    "prisma": "^5.8.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  }
+}
